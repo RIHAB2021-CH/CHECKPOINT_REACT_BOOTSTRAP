@@ -3,10 +3,14 @@
 :root{
   --primary-white:#fff;
   --primary-orange:#eb8472;
-  --primary-dark:rgba(255,255,255,0)
+  --primary-dark:rgba(255,255,255,0);
+
+  --primary-red:#ef4035;
+  --primary-hover-red:#F33501;
 }
 body{
-  font-family: "Roboto Condensed" sans-serif;
+  font-family: "Roboto Condensed" ,sans-serif;
+  
 }
 /*********************Navbar*********************/
 .logo{
@@ -16,7 +20,7 @@ body{
   
   
 }
-nav{height:5rem !important;}
+
 
 /********Menu links*********/
 nav a.nav-link{
@@ -25,7 +29,7 @@ letter-spacing: 0.0325rem;
 cursor: pointer;
 
 }
-/* .container{width: 100% !important;} */
+nav{z-index:3;}
 nav ul{margin-left:60% !important;}
 nav ul li{text-transform: uppercase;}
 .navbar-nav > li > a { color:var(--primary-white)!important;
@@ -43,3 +47,40 @@ border-top: 0.0857rem solid var(--primary-dark); ;}
 .navbar-nav> li > a:hover{
   border-top: 0.0857rem solid var(--primary-orange);
 }
+/******************************Header*******************************/
+/* .header-wrapper{
+  position:relative;
+  background: url(backgroundimage.jpg) no repeat;
+  background-size:cover;
+  background-position: center;
+  height: 90vh !important;
+} */
+.main-info {position: relative;
+  background:var(--primary-dark);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  font-family: "Roboto Condensed" ,sans-serif;
+  height: 90vh !important;
+  background: url(backgroundimage.jpg);
+background-size:cover;
+  background-position: center;
+  z-index:1;
+}
+.main-info h1{color:rgb(65, 64, 64);
+text-transform:uppercase;
+height: 40vh !important;
+
+ }
+ /************Typed TEXT************/
+ .typed-text{
+   font-size: 3rem !important;
+   color:var(--primary-orange) !important;
+   text-transform: uppercase !important;
+ }
+/***********header main offer button************/
+ .btn{z-index:2;
+margin-top: 2rem;} 
+/***********header main offer button************/
