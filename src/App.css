@@ -4,9 +4,11 @@
   --primary-white:#fff;
   --primary-orange:#eb8472;
   --primary-dark:rgba(255,255,255,0);
-
-  --primary-red:#ef4035;
-  --primary-hover-red:#F33501;
+  --mainDark:#343a40;
+  --maingrey:rgba(109,109,109);
+  --mainlightgrey:rgba(172,172,172);
+  --mainwhite:#fff;
+  --mainblue:#007bff;
 }
 body{
   font-family: "Roboto Condensed" ,sans-serif;
