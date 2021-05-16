@@ -15,7 +15,7 @@ const header = () => {
         loop
          />
         
-        <button type="button" class="btn btn-outline-danger">Contact Me</button>
+        <button type="button" class="btn btn-outline-danger">Contact Us</button>
         
         </div>
        

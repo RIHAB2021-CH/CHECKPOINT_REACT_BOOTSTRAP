@@ -16,7 +16,7 @@ body{
 .logo{
   height: 5rem;
   width: 10rem;
-  margin-left: 40% !important;
+  margin-left: 45% !important;
   
   
 }
@@ -29,7 +29,8 @@ letter-spacing: 0.0325rem;
 cursor: pointer;
 
 }
-nav{z-index:3;}
+nav{position: fixed;
+  z-index:3;}
 nav ul{margin-left:60% !important;}
 nav ul li{text-transform: uppercase;}
 .navbar-nav > li > a { color:var(--primary-white)!important;
@@ -83,4 +84,61 @@ height: 40vh !important;
 /***********header main offer button************/
  .btn{z-index:2;
 margin-top: 2rem;} 
-/***********header main offer button************/
+/******************intro*******************/
+.title-about{
+  color:rgb(65, 64, 64);
+text-transform:uppercase;
+height: 5vh !important;
+font-family: "Roboto Condensed" ,sans-serif;
+margin-left:30%;
+
+}
+.description{
+  display: flex;
+  padding: 4% 10%;
+  text-align: left;
+}
+.description p {
+  padding: 5px;
+  line-height: 2rem;
+}
+/***********cards************/
+.card{
+  width: 23rem;
+  height: 30rem;
+  color:rgb(92, 91, 91);
+  background-color: white!important;
+  margin:Opx;
+  padding: 2rem 2rem;
+  display:flex;
+ border: 0.55rem solid darkgray;
+ border-radius: 4%;
+  align-items: center;
+}
+.list{
+display: flex;
+height: 90VH;
+justify-content: space-around;
+margin :25px 5px;
+padding:10px 100px ;
+
+
+}
+.card img{
+  height: 10rem;
+  width:12rem;
+  background-color: transparent;
+  border-radius: 14;
+  border:0.3rem solid var(--primary-orange);
+}
+.drop{width: 10rem;}
+.list-cont h1{  color:rgb(65, 64, 64);
+  text-transform:uppercase;
+  height: 5vh !important;
+  font-family: "Roboto Condensed" ,sans-serif;
+  margin-left:43%;
+  
+ }
+ h3{
+font-size: 0.25rem;
+ }
