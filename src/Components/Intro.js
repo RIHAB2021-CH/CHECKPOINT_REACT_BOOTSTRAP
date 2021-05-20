@@ -4,7 +4,7 @@ import mylogo from "../webdesigner-logo.png";
 const Intro = () => {
     
   return (
-    <div classname="container-intro">  
+    <div className="container-intro">  
       <img src={mylogo} alt="logo..." className="logo" />
       <h1 className="title-about">We are your confident partner</h1>
       <div className="description">

@@ -16,6 +16,7 @@ const Cards = () => {
       "Graphic Design",
           "Social Media Profile Design",
           "Banner & Ad Design"],
+          key:1,
      
     },
     {
@@ -28,6 +29,7 @@ const Cards = () => {
         "E-Commerce Shopping Cart System",
         "Website Hosting & Email",
         "Domain Name Registration"],
+        key:2,
      
     },
     {
@@ -43,7 +45,7 @@ const Cards = () => {
 "Email Marketing",
 "Website Visitor/Keyword Tracking & Analytics"]
      
-    },
+   ,key:3 },
   ];
   return (
     <div className="list-cont">

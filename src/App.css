@@ -26,13 +26,13 @@ body{
 
 /********Menu links*********/
 nav a.nav-link{
-font-size:0.8rem;
+font-size:1rem;
 letter-spacing: 0.0325rem;
 cursor: pointer;
 
 }
 nav{position: fixed;
-  z-index:3;}
+  z-index:4;}
 nav ul{margin-left:60% !important;}
 nav ul li{text-transform: uppercase;}
 .navbar-nav > li > a { color:var(--primary-white)!important;
@@ -51,13 +51,7 @@ border-top: 0.0857rem solid var(--primary-dark); ;}
   border-top: 0.0857rem solid var(--primary-orange);
 }
 /******************************Header*******************************/
-/* .header-wrapper{
-  position:relative;
-  background: url(backgroundimage.jpg) no repeat;
-  background-size:cover;
-  background-position: center;
-  height: 90vh !important;
-} */
+
 .main-info {position: relative;
   background:var(--primary-dark);
   display:flex;
@@ -76,38 +70,51 @@ background-size:cover;
 text-transform:uppercase;
 height: 40vh !important;
 
+
  }
  /************Typed TEXT************/
  .typed-text{
-   font-size: 3rem !important;
-   color:var(--primary-orange) !important;
+   font-size: 1.432rem !important;
+   font-weight: 250;
+   color:var(--mainDark) !important;
    text-transform: uppercase !important;
  }
-/***********header main offer button************/
- .btn{z-index:2;
-margin-top: 2rem;} 
+ /*******************particales*********************/
+.tsparticles-canvas-el{
+  position: absolute;
+  height:100vh;
+  width: 100vw;
+  z-index: 3;
+  
+}
+
 /******************intro*******************/
 .title-about{
   color:rgb(65, 64, 64);
 text-transform:uppercase;
 height: 5vh !important;
 font-family: "Roboto Condensed" ,sans-serif;
-margin-left:30%;
+margin-left:34%;
+
 
 }
 .description{
   display: flex;
-  padding: 4% 10%;
+  padding: 3rem 10rem;
+  margin: 0rem 2rem;
   text-align: left;
 }
+.description:hover{box-shadow: 0rem 0rem 1rem 0rem ;}
 .description p {
-  padding: 5px;
-  line-height: 2rem;
+  padding: 1rem;
+  line-height: 3rem !important;
+  font-size: 1.424rem;
 }
 /***********cards************/
+
 .card{
-  width: 23rem;
-  height: 30rem;
+  width: 30rem;
+  height: 35rem;
   color:rgb(92, 91, 91);
   background-color: white!important;
   margin:Opx;
@@ -117,15 +124,21 @@ margin-left:30%;
  border-radius: 4%;
   align-items: center;
 }
+.card:hover{box-shadow: 0rem 0rem 1rem 0rem grey;
+}
 .list{
 display: flex;
 height: 90VH;
 justify-content: space-around;
-margin :25px 5px;
-padding:10px 100px ;
+margin :2rem 1rem 0rem 1rem;
+padding:10px 150px ;
 
 
 }
+.list p{font-size: 1.232rem;
+box-shadow: 0rem 0rem 0.1rem 0rem;
+height: 12rem;
+padding: 0.32rem;}
 .card img{
   height: 10rem;
   width:12rem;
@@ -133,7 +146,10 @@ padding:10px 100px ;
   border-radius: 14;
   border:0.3rem solid var(--primary-orange);
 }
-.drop{width: 10rem;}
+.drop{width: 10rem;
+font-size: 1.132rem;
+margin-top: 2rem;}
+.drop:hover{cursor: pointer;}
 .list-cont h1{  color:rgb(65, 64, 64);
   text-transform:uppercase;
   height: 5vh !important;
@@ -144,3 +160,48 @@ padding:10px 100px ;
  h3{
 font-size: 0.25rem;
  }
+ /*****************************Form**********************/
+ .needs-validation{
+   margin:0rem 6rem 2rem 6rem;
+   padding: 2rem 0rem 3rem 0rem;
+   
+ }
+ form label{
+   font-size: 1.432rem;
+   margin-bottom: 0.234rem;
+   color: var(--primary-orange);
+ }
+ .form-row{
+   display:flex;
+   margin-right:2rem;
+   margin-left:2rem;
+   margin-top:2rem;
+   justify-items:space-around;
+   align-items: center;
+ }
+ #exampleFormControlSelect1,#validationTooltip02,#validationTooltip01,#validationTooltip03,#validationTooltip04,#validationTooltip05{
+   width: 31rem;
+   height: 2.3rem;
+   padding:  0rem 1rem;
+   margin:0rem 0rem;
+
+ } 
+ 
+
+ .form-group{margin-right:2rem;
+  margin-left:2rem;
+  margin-bottom:2rem;} 
+  .container-1{display: flex;
+  justify-content: space-around;
+padding: 0rem 40rem;
+margin-top: 1.432rem;}
+  
+form .btn-outline-danger{
+  width: 20rem;
+  height: 3rem;
+  margin-left: 39rem;
+  font-size: 1.432rem;
+}
+form:hover{box-shadow: 0rem 0rem 1rem 0rem ;}
+
+

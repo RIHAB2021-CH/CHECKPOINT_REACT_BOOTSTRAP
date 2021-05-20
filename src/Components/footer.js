@@ -16,7 +16,7 @@ function footer() {
                 {/* column-1 */}
                 <div className="col-md-3 col-sm-6">
                     <h4>
-                    Creative Design
+                    Creative Design Departement
                     </h4>
                     <ul className="list-unstyled">
                         <li><a href="#">Bizerte</a></li>
@@ -55,10 +55,10 @@ function footer() {
                         Visit Our Pages
                     </h4>
                     <ul className="list-unstyled">
-                    <li><a href="#">Faceboo</a> <FontAwesomeIcon icon={faFacebook} /> </li>
-                        <li><a href="#">Twitter </a> <FontAwesomeIcon icon={faTwitterSquare} /></li>
-                        <li><a href="#">Linkedin </a><FontAwesomeIcon icon={faLinkedin } /></li>
-                        <li><a href="#">Github </a><FontAwesomeIcon icon={faGithub} /></li>
+                    <li><a href="#">Facebook</a> <FontAwesomeIcon icon={faFacebook} size="2x" /> </li>
+                        <li><a href="#">Twitter </a> <FontAwesomeIcon icon={faTwitterSquare} size="2x" /></li>
+                        <li><a href="#">Linkedin </a><FontAwesomeIcon icon={faLinkedin }size="2x" /></li>
+                        <li><a href="#">Github </a><FontAwesomeIcon icon={faGithub} size="2x" /></li>
                     </ul>
                 </div>
             </div>
@@ -92,7 +92,9 @@ font-family: "Roboto Condensed" ,sans-serif;
 }
 
 ul li a{color:var(--mainlightgrey);
-text-decoration:none;}
+text-decoration:none;
+font-size:1.432rem;
+margin-right:2rem;}
 ul li a:hover{color:var(--primary-orange);
     text-decoration:underline;
   
