@@ -52,14 +52,14 @@ const Cards = () => {
         <h1>Our Services</h1>
         <div className="list">
       {clients.map((el) => (
-        <div className="card" >
+        <div className="card" key={el.key} >
           <img src={el.image} />
           <h3>{el.title}</h3>
           <p>{el.description}</p>
           {el.service && (
             <select className="drop">
-              {el.service.map((el) => (
-                <option>{el}</option>
+              {el.service.map((p,index) => (
+                <option key={index}>{p}</option>
               ))}
             </select>
           )}
